@@ -8,7 +8,7 @@
 
 .container{
   width: 80%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .clearfix::after{
@@ -17,10 +17,14 @@
   clear: both;
 }
 
+
+/* HEADER */
+
+
 header .top{
   background-color: #e579e6;
-  height: 100px;
-  margin-bottom: 20px;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 header .jambotron{
@@ -29,16 +33,39 @@ header .jambotron{
 }
 
 
-/* HEADER */
-
-
-
-
-
 /* MAIN */
 
 
+main{
+  background-color: #0086fe;
+}
 
+.main-top{
+  background-color: #abcfe7;
+  height: 120px;
+  margin-bottom: 35px;
+}
+
+.main-bottom{
+  padding: 30px auto;
+  margin: 0 auto;
+}
+
+main .col{
+  height: 600px;
+  background-color: #abcfe7;
+  float: left;
+}
+
+aside{
+  width: 19%;
+}
+
+ section{
+  width: 60%;
+  margin: auto 1%
+}
 
 
 /* FOOTER */
+
